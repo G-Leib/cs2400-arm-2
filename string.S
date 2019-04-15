@@ -19,7 +19,7 @@ chars6	DCD		'r', ' ', 't', 'h', 'e', 'i', 'r', ' ', 'w', 'o', 'r'
 chars7	DCD		'k', ' ', 'o', 'n', ' ', 'n', 'e', 'u', 'r', 'a', 'l'
 chars8	DCD		'n', 'e', 't', 'w', 'o', 'r', 'k', 's', '.'
 count	DCD		95
-string	FILL		96
+string	FILL		100
 		mov		r0, #0		;start character count at 0
 		mov		r1, #0		;start word size count at 0
 		adr		r2, chars0	;find first letter
